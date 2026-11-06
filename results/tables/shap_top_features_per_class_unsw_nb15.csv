@@ -1,0 +1,11 @@
+class,top_feature_1,top_feature_2,top_feature_3
+Analysis,sbytes,proto_udp,ct_dst_sport_ltm
+Backdoor,sbytes,proto_udp,service_-
+DoS,ct_srv_dst,sbytes,dbytes
+Exploits,sbytes,sttl,service_-
+Fuzzers,ct_srv_dst,sbytes,service_-
+Generic,sbytes,service_dns,service_-
+Normal,sttl,ct_state_ttl,ct_dst_src_ltm
+Reconnaissance,sbytes,smean,dmean
+Shellcode,service_-,ct_dst_src_ltm,sbytes
+Worms,sbytes,service_-,smean

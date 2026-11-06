@@ -1,0 +1,12 @@
+class,train_before,train_after_smote,synthetic_added,class_weight
+BENIGN,70000,70000,0,0.3862
+DDoS,70000,70000,0,0.3862
+DoS Hulk,70000,70000,0,0.3862
+PortScan,63486,63486,0,0.4258
+DoS GoldenEye,7197,7197,0,3.7563
+FTP-Patator,4152,7000,2848,6.5111
+DoS slowloris,3762,7000,3238,7.186
+DoS Slowhttptest,3659,7000,3341,7.3883
+SSH-Patator,2253,7000,4747,11.9991
+Web Attack,1500,7000,5500,18.0226
+Bot,1364,7000,5636,19.8196

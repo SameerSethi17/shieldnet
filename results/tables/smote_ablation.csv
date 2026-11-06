@@ -1,0 +1,5 @@
+dataset,balancing,train_rows,accuracy,f1_macro,precision_macro,recall_macro,log_loss,macro_fpr,bin_fpr
+UNSW-NB15,"SMOTE on train, no weights",132075,0.82361,0.6178,0.63709,0.64391,0.44557,0.02444,0.05358
+UNSW-NB15,class weights,113921,0.78756,0.63025,0.61883,0.69101,0.51103,0.02442,0.19022
+CIC-IDS2017,"SMOTE on train, no weights",322683,0.9989,0.99534,0.99545,0.99523,0.00817,0.00012,0.00133
+CIC-IDS2017,class weights,297373,0.99867,0.99332,0.99062,0.99627,0.00924,0.00014,0.0026

@@ -1,0 +1,11 @@
+class,train_before,train_after_smote,synthetic_added,class_weight
+Normal,60005,60005,0,0.1899
+Exploits,19204,19204,0,0.5932
+Fuzzers,14672,14672,0,0.7765
+Reconnaissance,6994,6994,0,1.6288
+Generic,5319,6000,681,2.1418
+DoS,3850,6000,2150,2.959
+Analysis,1422,6000,4578,8.0113
+Backdoor,1316,6000,4684,8.6566
+Shellcode,1019,6000,4981,11.1797
+Worms,120,1200,1080,94.9342

@@ -1,0 +1,500 @@
+[
+ {
+  "kind": "table",
+  "file": "tables/results_summary.csv",
+  "title": "Results summary: all models (validation rank and test metrics)",
+  "dataset": "all"
+ },
+ {
+  "kind": "table",
+  "file": "tables/dataset_summary_raw.csv",
+  "title": "Dataset summary, raw",
+  "dataset": "all"
+ },
+ {
+  "kind": "table",
+  "file": "tables/dataset_summary_clean.csv",
+  "title": "Dataset summary, after cleaning",
+  "dataset": "all"
+ },
+ {
+  "kind": "table",
+  "file": "tables/per_model_metrics_test.csv",
+  "title": "Per-model metrics (test set)",
+  "dataset": "all"
+ },
+ {
+  "kind": "table",
+  "file": "tables/binary_view_comparison.csv",
+  "title": "Benign-vs-Attack comparison (test set)",
+  "dataset": "all"
+ },
+ {
+  "kind": "table",
+  "file": "tables/cross_dataset_comparison.csv",
+  "title": "Cross-dataset comparison (test set; not a transfer result)",
+  "dataset": "all"
+ },
+ {
+  "kind": "table",
+  "file": "tables/smote_ablation.csv",
+  "title": "SMOTE vs class weights (Random Forest)",
+  "dataset": "all"
+ },
+ {
+  "kind": "table",
+  "file": "tables/optuna_before_after.csv",
+  "title": "Optuna: before vs after tuning",
+  "dataset": "all"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/model_comparison_macro_f1.png",
+  "title": "All models: macro-F1 by dataset",
+  "dataset": "all"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/model_comparison_all_metrics.png",
+  "title": "All models: accuracy, macro-F1, precision, recall, log loss, latency",
+  "dataset": "all"
+ },
+ {
+  "kind": "table",
+  "file": "tables/class_counts_raw_cicids2017.csv",
+  "title": "Class counts, raw",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "table",
+  "file": "tables/class_actions_cicids2017.csv",
+  "title": "Cleaning: what happened to every class",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "table",
+  "file": "tables/cleaning_log_cicids2017.csv",
+  "title": "Cleaning log",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "table",
+  "file": "tables/missing_inf_cicids2017.csv",
+  "title": "Missing / infinite values per column",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "table",
+  "file": "tables/split_counts_cicids2017.csv",
+  "title": "Rows per class in train / validation / test",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "table",
+  "file": "tables/balancing_cicids2017.csv",
+  "title": "Class weights and SMOTE (train only)",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "table",
+  "file": "tables/correlated_pairs_cicids2017.csv",
+  "title": "Highly correlated feature pairs",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "table",
+  "file": "tables/feature_ranking_cicids2017.csv",
+  "title": "Feature selection audit (every column)",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "table",
+  "file": "tables/final_model_per_class_report_cicids2017.csv",
+  "title": "Final model: per-class report (test set)",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "table",
+  "file": "tables/per_class_recall_test_cicids2017.csv",
+  "title": "Per-class recall, all models (test set)",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "table",
+  "file": "tables/shap_top_features_per_class_cicids2017.csv",
+  "title": "SHAP: top 3 features per class",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/class_distribution_raw_cicids2017.png",
+  "title": "Class distribution, raw",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/missing_inf_cicids2017.png",
+  "title": "Missing / infinite values",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/class_distribution_clean_cicids2017.png",
+  "title": "Class distribution after cleaning",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/split_distribution_cicids2017.png",
+  "title": "Class counts per split",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/class_distribution_balanced_cicids2017.png",
+  "title": "Training classes before / after SMOTE",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/correlation_heatmap_cicids2017.png",
+  "title": "Correlation heatmap, all features",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/correlation_heatmap_selected_cicids2017.png",
+  "title": "Correlation heatmap, selected features",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/feature_selection_before_after_cicids2017.png",
+  "title": "Feature selection: before and after",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/feature_ranking_cicids2017.png",
+  "title": "Top features: mutual information and Random Forest",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/cicids2017_mlp_history.png",
+  "title": "MLP training curves",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/optuna_history_cicids2017.png",
+  "title": "Optuna optimisation history",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/optuna_before_after_cicids2017.png",
+  "title": "Optuna: before and after tuning",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/shap_global_bar_cicids2017.png",
+  "title": "SHAP: global feature importance",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/shap_global_by_class_cicids2017.png",
+  "title": "SHAP: importance by class",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/shap_class_heatmap_cicids2017.png",
+  "title": "SHAP: per-class heatmap",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/shap_local_correct_cicids2017.png",
+  "title": "SHAP: one correctly detected flow",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/shap_local_error_cicids2017.png",
+  "title": "SHAP: one false alarm",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/cicids2017_lgbm_tuned_confusion_raw.png",
+  "title": "Final model (LightGBM (Optuna-tuned)): counts, test",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/cicids2017_lgbm_tuned_confusion_norm.png",
+  "title": "Final model (LightGBM (Optuna-tuned)): normalised, test",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/cicids2017_lgbm_tuned_roc.png",
+  "title": "Final model (LightGBM (Optuna-tuned)): ROC curves, test",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/cicids2017_lgbm_tuned_pr.png",
+  "title": "Final model (LightGBM (Optuna-tuned)): precision-recall curves, test",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/cicids2017_lr_confusion_norm.png",
+  "title": "Logistic Regression: confusion matrix, normalised (test)",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/cicids2017_rf_confusion_norm.png",
+  "title": "Random Forest: confusion matrix, normalised (test)",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/cicids2017_xgb_confusion_norm.png",
+  "title": "XGBoost: confusion matrix, normalised (test)",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/cicids2017_lgbm_confusion_norm.png",
+  "title": "LightGBM: confusion matrix, normalised (test)",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/cicids2017_mlp_confusion_norm.png",
+  "title": "MLP (Keras): confusion matrix, normalised (test)",
+  "dataset": "cicids2017"
+ },
+ {
+  "kind": "table",
+  "file": "tables/class_counts_raw_unsw_nb15.csv",
+  "title": "Class counts, raw",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "table",
+  "file": "tables/class_actions_unsw_nb15.csv",
+  "title": "Cleaning: what happened to every class",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "table",
+  "file": "tables/cleaning_log_unsw_nb15.csv",
+  "title": "Cleaning log",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "table",
+  "file": "tables/missing_inf_unsw_nb15.csv",
+  "title": "Missing / infinite values per column",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "table",
+  "file": "tables/split_counts_unsw_nb15.csv",
+  "title": "Rows per class in train / validation / test",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "table",
+  "file": "tables/balancing_unsw_nb15.csv",
+  "title": "Class weights and SMOTE (train only)",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "table",
+  "file": "tables/correlated_pairs_unsw_nb15.csv",
+  "title": "Highly correlated feature pairs",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "table",
+  "file": "tables/feature_ranking_unsw_nb15.csv",
+  "title": "Feature selection audit (every column)",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "table",
+  "file": "tables/final_model_per_class_report_unsw_nb15.csv",
+  "title": "Final model: per-class report (test set)",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "table",
+  "file": "tables/per_class_recall_test_unsw_nb15.csv",
+  "title": "Per-class recall, all models (test set)",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "table",
+  "file": "tables/shap_top_features_per_class_unsw_nb15.csv",
+  "title": "SHAP: top 3 features per class",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/class_distribution_raw_unsw_nb15.png",
+  "title": "Class distribution, raw",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/class_distribution_clean_unsw_nb15.png",
+  "title": "Class distribution after cleaning",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/split_distribution_unsw_nb15.png",
+  "title": "Class counts per split",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/class_distribution_balanced_unsw_nb15.png",
+  "title": "Training classes before / after SMOTE",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/correlation_heatmap_unsw_nb15.png",
+  "title": "Correlation heatmap, all features",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/correlation_heatmap_selected_unsw_nb15.png",
+  "title": "Correlation heatmap, selected features",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/feature_selection_before_after_unsw_nb15.png",
+  "title": "Feature selection: before and after",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/feature_ranking_unsw_nb15.png",
+  "title": "Top features: mutual information and Random Forest",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/unsw_nb15_mlp_history.png",
+  "title": "MLP training curves",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/optuna_history_unsw_nb15.png",
+  "title": "Optuna optimisation history",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/optuna_before_after_unsw_nb15.png",
+  "title": "Optuna: before and after tuning",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/shap_global_bar_unsw_nb15.png",
+  "title": "SHAP: global feature importance",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/shap_global_by_class_unsw_nb15.png",
+  "title": "SHAP: importance by class",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/shap_class_heatmap_unsw_nb15.png",
+  "title": "SHAP: per-class heatmap",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/shap_local_correct_unsw_nb15.png",
+  "title": "SHAP: one correctly detected flow",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/shap_local_error_unsw_nb15.png",
+  "title": "SHAP: one false alarm",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/unsw_nb15_rf_tuned_confusion_raw.png",
+  "title": "Final model (Random Forest (Optuna-tuned)): counts, test",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/unsw_nb15_rf_tuned_confusion_norm.png",
+  "title": "Final model (Random Forest (Optuna-tuned)): normalised, test",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/unsw_nb15_rf_tuned_roc.png",
+  "title": "Final model (Random Forest (Optuna-tuned)): ROC curves, test",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/unsw_nb15_rf_tuned_pr.png",
+  "title": "Final model (Random Forest (Optuna-tuned)): precision-recall curves, test",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/unsw_nb15_lr_confusion_norm.png",
+  "title": "Logistic Regression: confusion matrix, normalised (test)",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/unsw_nb15_rf_confusion_norm.png",
+  "title": "Random Forest: confusion matrix, normalised (test)",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/unsw_nb15_xgb_confusion_norm.png",
+  "title": "XGBoost: confusion matrix, normalised (test)",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/unsw_nb15_lgbm_confusion_norm.png",
+  "title": "LightGBM: confusion matrix, normalised (test)",
+  "dataset": "unsw_nb15"
+ },
+ {
+  "kind": "figure",
+  "file": "figures/unsw_nb15_mlp_confusion_norm.png",
+  "title": "MLP (Keras): confusion matrix, normalised (test)",
+  "dataset": "unsw_nb15"
+ }
+]

@@ -1,0 +1,11 @@
+original_class,raw_count,after_nan_and_duplicates,final_class,final_class_rows,action
+Normal,93000,85722,Normal,85722,kept as is
+Generic,58871,7599,Generic,7599,kept as is
+Exploits,44525,27434,Exploits,27434,kept as is
+Fuzzers,24246,20960,Fuzzers,20960,kept as is
+DoS,16353,5500,DoS,5500,kept as is
+Reconnaissance,13987,9991,Reconnaissance,9991,kept as is
+Analysis,2677,2032,Analysis,2032,kept as is
+Backdoor,2329,1880,Backdoor,1880,kept as is
+Shellcode,1511,1456,Shellcode,1456,kept as is
+Worms,174,171,Worms,171,kept as is

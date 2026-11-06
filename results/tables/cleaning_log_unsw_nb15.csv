@@ -1,0 +1,5 @@
+step,rows_before,rows_after,rows_removed,note
+drop NaN rows,257673,257673,0,rows with NaN or Inf removed
+drop duplicates,257673,162745,94928,identical feature+label rows
+drop ultra-rare classes,162745,162745,0,dropped: []
+cap classes at None,162745,162745,0,"capped (class, rows before): []"

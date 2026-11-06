@@ -1,0 +1,16 @@
+original_class,raw_count,after_nan_and_duplicates,final_class,final_class_rows,action
+BENIGN,2273097,2072254,BENIGN,100000,capped at 100000
+DoS Hulk,231073,172846,DoS Hulk,100000,capped at 100000
+PortScan,158930,90694,PortScan,90694,kept as is
+DDoS,128027,128014,DDoS,100000,capped at 100000
+DoS GoldenEye,10293,10282,DoS GoldenEye,10282,kept as is
+FTP-Patator,7938,5931,FTP-Patator,5931,kept as is
+SSH-Patator,5897,3219,SSH-Patator,3219,kept as is
+DoS slowloris,5796,5374,DoS slowloris,5374,kept as is
+DoS Slowhttptest,5499,5228,DoS Slowhttptest,5228,kept as is
+Bot,1966,1948,Bot,1948,kept as is
+Web Attack - Brute Force,1507,1470,Web Attack,2143,merged into family class
+Web Attack - XSS,652,652,Web Attack,2143,merged into family class
+Infiltration,36,36,DROPPED,0,fewer than 50 rows after cleaning
+Web Attack - Sql Injection,21,21,Web Attack,2143,merged into family class
+Heartbleed,11,11,DROPPED,0,fewer than 50 rows after cleaning

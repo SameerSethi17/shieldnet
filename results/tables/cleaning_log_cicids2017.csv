@@ -1,0 +1,5 @@
+step,rows_before,rows_after,rows_removed,note
+drop NaN rows,2830743,2827876,2867,rows with NaN or Inf removed
+drop duplicates,2827876,2497980,329896,identical feature+label rows
+drop ultra-rare classes,2497980,2497933,47,"dropped: ['Infiltration', 'Heartbleed']"
+cap classes at 100000,2497933,424819,2073114,"capped (class, rows before): [('BENIGN', 2072254), ('DDoS', 128014), ('DoS Hulk', 172846)]"

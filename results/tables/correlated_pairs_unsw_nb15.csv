@@ -1,0 +1,12 @@
+feature_a,feature_b,correlation
+swin,proto_tcp,0.9999
+is_ftp_login,ct_ftp_cmd,0.9985
+dbytes,dloss,0.9969
+sbytes,sloss,0.9965
+dpkts,dloss,0.9809
+dpkts,dbytes,0.9753
+dwin,proto_tcp,0.9747
+swin,dwin,0.9746
+spkts,sloss,0.9717
+spkts,sbytes,0.9638
+dwin,state_fin,0.9538

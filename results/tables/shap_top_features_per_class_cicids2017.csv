@@ -1,0 +1,12 @@
+class,top_feature_1,top_feature_2,top_feature_3
+BENIGN,Destination Port,Init_Win_bytes_forward,Bwd Packet Length Min
+Bot,Destination Port,Flow IAT Max,Init_Win_bytes_forward
+DDoS,act_data_pkt_fwd,Avg Fwd Segment Size,Init_Win_bytes_forward
+DoS GoldenEye,Flow Bytes/s,Init_Win_bytes_forward,Subflow Bwd Bytes
+DoS Hulk,Subflow Bwd Bytes,Packet Length Variance,Flow IAT Max
+DoS Slowhttptest,Flow IAT Mean,Subflow Bwd Bytes,Fwd IAT Min
+DoS slowloris,Bwd Packets/s,Max Packet Length,Bwd IAT Mean
+FTP-Patator,Destination Port,Average Packet Size,Fwd Packet Length Max
+PortScan,Bwd Packets/s,Flow IAT Max,Init_Win_bytes_forward
+SSH-Patator,Destination Port,Fwd Packet Length Max,act_data_pkt_fwd
+Web Attack,Init_Win_bytes_backward,Average Packet Size,Fwd IAT Min

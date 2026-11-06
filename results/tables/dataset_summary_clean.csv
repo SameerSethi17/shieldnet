@@ -1,0 +1,3 @@
+dataset,rows,feature_columns,classes,benign_rows,benign_pct,attack_rows,majority_class,majority_count,rarest_class,rarest_count,imbalance_ratio
+CIC-IDS2017,424819,78,11,100000,23.54,324819,BENIGN,100000,Bot,1948,51.3
+UNSW-NB15,162745,42,10,85722,52.67,77023,Normal,85722,Worms,171,501.3

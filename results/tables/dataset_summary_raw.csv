@@ -1,0 +1,3 @@
+dataset,rows,feature_columns,classes,benign_rows,benign_pct,attack_rows,majority_class,majority_count,rarest_class,rarest_count,imbalance_ratio
+CIC-IDS2017,2830743,78,15,2273097,80.3,557646,BENIGN,2273097,Heartbleed,11,206645.2
+UNSW-NB15,257673,44,10,93000,36.09,164673,Normal,93000,Worms,174,534.5

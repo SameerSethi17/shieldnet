@@ -1,0 +1,79 @@
+feature,status,correlated_with,correlation,mutual_info,rf_importance,combined_rank
+Destination Port,SELECTED,,,1.2639765976765043,0.09602749232179543,9.0
+Flow Duration,correlated (dropped),Flow IAT Max,0.950069670023036,1.732157983657589,,
+Total Fwd Packets,correlated (dropped),Subflow Bwd Bytes,0.9813199523517084,1.0974501037867372,,
+Total Backward Packets,correlated (dropped),Subflow Bwd Bytes,0.9811718131270185,1.1184487461759685,,
+Total Length of Fwd Packets,SELECTED,,,1.6143841520506124,0.04352128313065454,6.0
+Total Length of Bwd Packets,correlated (dropped),Subflow Bwd Bytes,0.9999996538950916,1.4666836239957808,,
+Fwd Packet Length Max,SELECTED,,,1.5902565713977537,0.04614813100552033,4.0
+Fwd Packet Length Min,"kept by filter, not in top K",,,0.41010543736064253,0.005243202971238577,33.0
+Fwd Packet Length Mean,correlated (dropped),Avg Fwd Segment Size,1.0,1.4751145656326365,,
+Fwd Packet Length Std,correlated (dropped),Fwd Packet Length Max,0.9593294116968462,1.2203397194828272,,
+Bwd Packet Length Max,correlated (dropped),Max Packet Length,0.9931034673319148,1.365290876518322,,
+Bwd Packet Length Min,SELECTED,,,0.43444775452943096,0.021440060318912185,24.0
+Bwd Packet Length Mean,correlated (dropped),Average Packet Size,0.9562266724873512,1.5195509210806604,,
+Bwd Packet Length Std,correlated (dropped),Max Packet Length,0.9826493597450642,1.1567512633514458,,
+Flow Bytes/s,SELECTED,,,1.5579372397295348,0.02453580645608087,17.0
+Flow Packets/s,SELECTED,,,1.672677307553289,0.02154510558947344,14.0
+Flow IAT Mean,SELECTED,,,1.7251318714037585,0.040013068026481385,3.0
+Flow IAT Std,correlated (dropped),Flow IAT Max,0.9644794314251438,1.6425200273889204,,
+Flow IAT Max,SELECTED,,,1.766497491847242,0.03384450047303988,8.0
+Flow IAT Min,"kept by filter, not in top K",,,0.7540939977291012,0.014667601846684619,29.0
+Fwd IAT Total,correlated (dropped),Flow IAT Max,0.950421172945512,1.636792852320474,,
+Fwd IAT Mean,SELECTED,,,1.6928195203935368,0.03262681882498961,13.0
+Fwd IAT Std,correlated (dropped),Flow IAT Max,0.9597406057499729,1.4199233484133391,,
+Fwd IAT Max,correlated (dropped),Flow IAT Max,0.9996930715957877,1.7362686414090687,,
+Fwd IAT Min,SELECTED,,,1.0770946418403975,0.022834372767457593,19.0
+Bwd IAT Total,SELECTED,,,1.1254594539231513,0.016731512722915703,21.0
+Bwd IAT Mean,SELECTED,,,1.1617960867451842,0.015332871564977266,20.0
+Bwd IAT Std,"kept by filter, not in top K",,,1.0456158591353408,0.013868459806796298,27.0
+Bwd IAT Max,SELECTED,,,1.2151170198504921,0.014911321201047998,22.0
+Bwd IAT Min,"kept by filter, not in top K",,,0.7962030586783366,0.014448284954202395,28.0
+Fwd PSH Flags,correlated (dropped),SYN Flag Count,0.9999999999999998,0.087191383415965,,
+Bwd PSH Flags,constant (dropped),,,,,
+Fwd URG Flags,"kept by filter, not in top K",,,0.002795358228032452,0.0,42.0
+Bwd URG Flags,constant (dropped),,,,,
+Fwd Header Length,correlated (dropped),Fwd Header Length.1,0.9999999999999998,1.7312260321626536,,
+Bwd Header Length,correlated (dropped),Fwd Header Length.1,0.999999989306133,1.4844880264920004,,
+Fwd Packets/s,correlated (dropped),Flow Packets/s,0.951464219415938,1.6281850898343544,,
+Bwd Packets/s,SELECTED,,,1.6083101025390785,0.03699005300052347,12.0
+Min Packet Length,"kept by filter, not in top K",,,0.35647780020103825,0.012195267998668905,32.0
+Max Packet Length,SELECTED,,,1.6958030522213141,0.04444818304657752,2.0
+Packet Length Mean,correlated (dropped),Average Packet Size,0.9992217056523057,1.8090195860757117,,
+Packet Length Std,correlated (dropped),Average Packet Size,0.9572089224375079,1.7226918330672503,,
+Packet Length Variance,SELECTED,,,1.7188082598649892,0.037907933825981475,7.0
+FIN Flag Count,"kept by filter, not in top K",,,0.0836997345105388,0.0010596220933828107,40.0
+SYN Flag Count,"kept by filter, not in top K",,,0.09635221481678391,0.003826377978329382,37.0
+RST Flag Count,"kept by filter, not in top K",,,0.006656605906995683,1.024370859912817e-18,41.0
+PSH Flag Count,"kept by filter, not in top K",,,0.19530443659143648,0.014736872697178507,31.0
+ACK Flag Count,"kept by filter, not in top K",,,0.09272898461733625,0.006671421087187116,34.0
+URG Flag Count,"kept by filter, not in top K",,,0.059288405367389885,0.003814311258733764,39.0
+CWE Flag Count,correlated (dropped),Fwd URG Flags,1.0,0.0,,
+ECE Flag Count,correlated (dropped),RST Flag Count,0.9999999999999998,0.0,,
+Down/Up Ratio,"kept by filter, not in top K",,,0.3067968580070297,0.0027534925534244492,36.0
+Average Packet Size,SELECTED,,,1.8211955644605187,0.040412793655209577,1.0
+Avg Fwd Segment Size,SELECTED,,,1.4794150069091325,0.031318272796240325,16.0
+Avg Bwd Segment Size,correlated (dropped),Average Packet Size,0.9562266724873512,1.5166884394804754,,
+Fwd Header Length.1,SELECTED,,,1.7327099705869888,0.03703470024509731,5.0
+Fwd Avg Bytes/Bulk,constant (dropped),,,,,
+Fwd Avg Packets/Bulk,constant (dropped),,,,,
+Fwd Avg Bulk Rate,constant (dropped),,,,,
+Bwd Avg Bytes/Bulk,constant (dropped),,,,,
+Bwd Avg Packets/Bulk,constant (dropped),,,,,
+Bwd Avg Bulk Rate,constant (dropped),,,,,
+Subflow Fwd Packets,correlated (dropped),Subflow Bwd Bytes,0.9813199523517084,1.0965614477991417,,
+Subflow Fwd Bytes,correlated (dropped),Total Length of Fwd Packets,0.9999999999999998,1.6127535180160744,,
+Subflow Bwd Packets,correlated (dropped),Subflow Bwd Bytes,0.9811718131270185,1.1209443513083732,,
+Subflow Bwd Bytes,SELECTED,,,1.4706258844479907,0.0452361534614885,11.0
+Init_Win_bytes_forward,SELECTED,,,1.1359382654017467,0.037923704114274676,15.0
+Init_Win_bytes_backward,SELECTED,,,1.343571701080435,0.07038050255313634,10.0
+act_data_pkt_fwd,SELECTED,,,0.8921723623138238,0.03385797242938603,18.0
+min_seg_size_forward,correlated (dropped),Fwd Header Length.1,0.9999999123491705,0.7548428395315518,,
+Active Mean,"kept by filter, not in top K",,,0.6914389539158656,0.015079768633978769,26.0
+Active Std,"kept by filter, not in top K",,,0.10315938977887296,0.00214418487479881,38.0
+Active Max,"kept by filter, not in top K",,,0.6910579870577962,0.007565534008458413,30.0
+Active Min,SELECTED,,,0.6653109855760695,0.016732218850001857,25.0
+Idle Mean,correlated (dropped),Flow IAT Max,0.9847489692936796,0.7917202933084067,,
+Idle Std,"kept by filter, not in top K",,,0.2780844517471728,0.003017272638859032,35.0
+Idle Max,correlated (dropped),Flow IAT Max,0.997501061025951,0.7964398926092362,,
+Idle Min,SELECTED,,,0.7822262989947406,0.017153492216814902,23.0
